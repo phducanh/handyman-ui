@@ -1,0 +1,105 @@
+syntax = "proto3";
+
+package chatservice;
+import "google/api/annotations.proto";
+import "google/protobuf/wrappers.proto";
+import "const.proto";
+option go_package = "./chatpb";
+
+
+service ChatService {
+    rpc Chat(stream ChatMessage) returns (stream ChatMessage) {}
+    rpc NewConversation(NewConversationRequest) returns (NewConversationResponse) {}
+
+}
+
+
+message NewConversationRequest {
+    repeated string memberIds = 1;
+}
+
+
+message NewConversationResponse {
+    string id = 1;
+}
+
+
+message ChatMessage {
+    string message = 1; 
+}
+
+service ChatHTTP {
+    rpc FetchPost(FetchPostRequest) returns (FetchPostResponse) {
+        option (google.api.http) = {
+            post: "/chat/fetch"
+            body: "*"
+        };
+    }
+    rpc FetchOnePost(FetchOnePostRequest) returns (FetchOnePostResponse) {
+        option (google.api.http) = {
+            post: "/chat/fetch/{id=message}"
+            body: "*"
+        };
+    }
+    rpc SendPost(SendPostRequest) returns (SendPostResponse) {
+        option (google.api.http) = {
+            post: "/chat/send/{id=message}"
+            body: "*"
+        };
+    }
+}
+
+message Chat {
+    int64 timestamp = 1;
+    string payload = 2;
+    string sender = 3;
+}
+
+message FetchPostRequest {
+    repeated string conversationId = 1;
+    string _userId = 2;
+}
+
+message FetchPostResponse {
+    int32 code = 1;
+    bool success = 2;
+    Data data = 3;
+    message Data {
+    }
+}
+
+message Pagination {
+    string timestamp = 1;
+    string min = 2;
+}
+
+message FetchOnePostRequest {
+    string id = 1;
+    int64 timestamp = 2;
+    int32 min = 3;
+    string _userId = 4;
+    
+}
+
+message FetchOnePostResponse {
+    int32 code = 1;
+    bool success = 2;
+    Data data = 3;
+    message Data {
+        repeated Chat chats = 1;
+    }
+}
+
+message SendPostRequest {
+    string _userId = 1;
+    string payload = 2;
+    string id = 3;
+}
+
+message SendPostResponse {
+    int32 code = 1;
+    bool success = 2;
+    Data data = 3;
+    message Data {
+    }
+}

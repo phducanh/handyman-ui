@@ -1,0 +1,306 @@
+{
+  "layout": {
+    "header": {
+      "search": "Tìm kiếm",
+      "links": {
+        "explore": "Khám phá",
+        "login": "Đăng nhập",
+        "logout": "Thoát",
+        "signup": "Đăng ký",
+        "joinAsHomeowner": "Đăng ký chủ nhà",
+        "joinAsPro": "Tham gia Pro Network",
+        "shoppingCarts": "Giỏ hàng",
+        "helpCenter": "Trợ giúp",
+        "home": "Trang chủ",
+        "services": "Dịch vụ",
+        "about": "Chúng tôi",
+        "contact": "Liên lạc"
+      },
+      "items": {
+        "referralCode": {
+          "name": "Referral code",
+          "description": "Copy your referral code"
+        },
+        "notification": {
+          "name": "Thông báo",
+          "description": "kiểm tra thông báo"
+        },
+        "accountManagement": {
+          "name": "Quản lý tài khoản",
+          "description": "Thay đổi thông tin tài khoản"
+        },
+        "security": {
+          "name": "Bảo mật",
+          "description": "Tìm hiểu về chính sách bảo mật"
+        },
+        "changePassword": {
+          "name": "Đổi mật khẩu",
+          "description": "Thay đổi mật khẩu"
+        },
+        "accountInfomation": {
+          "name": "Thông tin tài khoản",
+          "description": "Xem chi tiết thông tin tài khoản"
+        },
+        "myProjects": {
+          "name": "Dự án của tôi",
+          "description": "Xem tất cả các dự án của bạn"
+        }
+      }
+    },
+    "footer": {}
+  },
+  "pages": {
+    "home": {
+      "section": {
+        "hero": {
+          "sologan": "Đem 🏠 ngôi nhà\ntrong mơ của bạn thành hiện thực.",
+          "search": {
+            "placeholder": "Bạn cần làm gì ?",
+            "submit": "Tìm kiếm"
+          }
+        },
+        "professionalNearYou": {
+          "title": "Những chuyên gia gần bạn",
+          "viewAll": "xem tất cả",
+          "learnMore": "Tìm hiểu thêm"
+        }
+      }
+    },
+    "accountInfo": {
+      "title": "Thông tin tài khoản",
+      "tabTitle": {
+        "personalProfile": "Thông tin cá nhân",
+        "contactInfomation": "Thông tin liên lạc"
+      },
+      "returnHome": "Trở về",
+      "formItems": {
+        "firstname": {
+          "placeholder": "Tên riêng"
+        },
+        "lastname": {
+          "placeholder": "Tên họ"
+        },
+        "email": {
+          "placeholder": "Địa chỉ email"
+        },
+        "phone": {
+          "placeholder": "Số điện thoại"
+        },
+        "address1": {
+          "placeholder": "Địa chỉ 1"
+        },
+        "address2": {
+          "placeholder": "Địa chỉ 2"
+        },
+        "state": {
+          "placeholder": "State"
+        },
+        "city": {
+          "placeholder": "Thành phố"
+        },
+        "zipcode": {
+          "placeholder": "Mã bưu chính"
+        }
+      }
+    },
+    "editProfile": {
+      "title": "Thông tin tài khoản",
+      "tabTitle": {
+        "personalProfile": "Thông tin cá nhân",
+        "contactInfomation": "Thông tin liên lạc"
+      },
+      "updateProfile": "Chỉnh sửa",
+      "formItems": {
+        "firstname": {
+          "placeholder": "Tên riêng"
+        },
+        "lastname": {
+          "placeholder": "Tên họ"
+        },
+        "email": {
+          "placeholder": "Địa chỉ email"
+        },
+        "phone": {
+          "placeholder": "Số điện thoại"
+        },
+        "address1": {
+          "placeholder": "Địa chỉ 1"
+        },
+        "address2": {
+          "placeholder": "Địa chỉ 2"
+        },
+        "state": {
+          "placeholder": "State"
+        },
+        "city": {
+          "placeholder": "Thành phố"
+        },
+        "zipcode": {
+          "placeholder": "Mã bưu chính"
+        }
+      }
+    },
+    "changePassword": {
+      "title": "Thay đổi mật khẩu",
+      "save": "Lưu",
+      "formItems": {
+        "currentPassword": {
+          "label": "Mật khẩu hiện tại",
+          "message": {
+            "required": "Mời bạn nhập mật khẩu hiện tại",
+            "incorrect": "Mật khẩu sai"
+          }
+        },
+        "newPassword": {
+          "label": "Mật khẩu mới",
+          "message": {
+            "required": "Mời bạn nhập mật khẩu mới",
+            "invalid": "Độ dài tối thiểu 8 kí tự gồm 1 kí tự hoa, 1 kí tự thường và 1 chữ số"
+          }
+        },
+        "confirmPassword": {
+          "label": "Nhập lại mật khẩu",
+          "message": {
+            "required": "Mời bạn nhập lại mật khẩu mới",
+            "notMatch": "Mật khẩu không khớp"
+          }
+        }
+      },
+      "alert": {}
+    },
+    "forgotPassword": {
+      "title": "Quên mật khẩu",
+      "warning": "Chúng tôi sẽ gửi cho bạn một liên kết.\nXin hãy kiểm tra địa chỉ email bạn đã đăng ký.",
+      "backToLogin": "Đăng nhập",
+      "next": "Tiếp theo",
+      "formItems": {
+        "email": {
+          "label": "Địa chỉ email",
+          "message": {
+            "required": "Mời bạn nhập địa chỉ email",
+            "incorrect": "Mật khẩu sai"
+          }
+        }
+      }
+    },
+    "product": {
+      "arielMatic": {
+        "name": "Combo Nước Giặt ARIEL Matic Đậm Đặc 4.1KGx2/ Hương Downy 3.9KGx2",
+        "review": "đánh giá",
+        "sold": "đã bán",
+        "amount": "Số lượng",
+        "to": "Giao đến",
+        "changeAddress": "Đổi địa chỉ",
+        "buy": "Mua",
+        "shopContact": "Liên hệ shop"
+      }
+    },
+    "signin": {
+      "welcome": "Chào mừng trở lại!",
+      "review": "Việc nhà thật dễ dàng với AnygoNow",
+      "forgotPassword": "Quên mật khẩu?",
+      "rememberMe": "Ghi nhớ tài khoản",
+      "login": "Đăng nhập",
+      "createNewAccount": "Tạo tài khoản",
+      "authservice_user_inactive": "Tài khoản này đã bị khóa !",
+      "formItems": {
+        "email": {
+          "label": "Địa chỉ email",
+          "message": {
+            "required": "Mời bạn nhập địa chỉ email"
+          }
+        },
+        "password": {
+          "label": "Mật khẩu",
+          "message": {
+            "required": "Mời bạn nhập mật khẩu"
+          }
+        }
+      }
+    },
+    "signup": {
+      "welcome": "Chào mừng bạn tới với AnygoNow",
+      "review": "Việc nhà thật dễ dàng với AnygoNow",
+      "iAgreeToThe": "Tôi đồng ý với",
+      "and": "và",
+      "termOfUse": "Điều khoản sử dụng",
+      "privacyPolicy": "Quyền riêng tư",
+      "alreadyHaveAccount": "Đã có tài khoản",
+      "termOfUseNotAccepted": "Bạn phải đồng ý điều khoản sử dụng để tiếp tục",
+      "next": "Tiếp theo",
+      "user_email_existed": "Địa chỉ email nãy đã tồn tại !",
+      "user_phone_existed": "Số điện thoại này đã tồn tại !",
+      "formItems": {
+        "email": {
+          "label": "Địa chỉ email",
+          "message": {
+            "required": "Mời bạn nhập địa chỉ email",
+            "invalid": "Định dạng email không đúng"
+          }
+        },
+        "phoneNumber": {
+          "label": "Số điện thoại",
+          "message": {
+            "required": "Mời bạn nhập số điện thoại",
+            "invalid": "Số điện thoại không đúng"
+          }
+        },
+        "password": {
+          "label": "Mật khẩu",
+          "message": {
+            "required": "Mời bạn nhập mật khẩu",
+            "invalid": "Độ dài tối thiểu 8 kí tự gồm 1 kí tự hoa, 1 kí tự thường và 1 chữ số"
+          }
+        },
+        "confirmPassword": {
+          "label": "Nhập lại mật khẩu",
+          "message": {
+            "required": "Mời bạn nhập lại mật khẩu",
+            "notMatch": "Mật khẩu không khớp"
+          }
+        }
+      }
+    },
+    "emailVerify": {
+      "title": "Xác thực Email của bạn",
+      "subtitle1": "Một đường dẫn đã được gửi tới email của bạn",
+      "subtitle2": "Xin hãy kiểm tra hộp thư",
+      "hint": "Không nhận được đường dẫn? Hãy kiểm tra hòm thư spam",
+      "resend": "Gửi lại đường dẫn"
+    },
+    "detail-brand": {
+      "already_ordered": "Đơn đặt hàng đã được gửi",
+      "sendSuccess": "Gửi yêu cầu thành công",
+      "exceed_max_orders": "Vượt quá đơn đặt hàng tối đa"
+    },
+    "handyman": {
+      "connectSuccess": "Đơn hàng đã được kết nối",
+      "connectFailure": "Kết nối thất bại",
+      "connectIgnoreSuccess": "Từ chối đơn hàng thành công",
+      "connectIgnoreFailure": "Từ chối đơn hàng thất bại"
+    },
+    "customerSearch": {
+      "title": "Kết quả tìm kiếm của \"{0}\"",
+      "search": "Tìm kiếm",
+      "view": "Xem",
+      "reviews": "{0} đánh giá",
+      "clearFilter": "Xóa bộ lọc",
+      "mostReview": "Đánh giá nhiều nhất",
+      "mostRequest": "Yêu cầu nhiều nhất",
+      "requestTimes": "Được yêu cầu {0} lần qua AnygoNow",
+      "reviewTimes": "{0} Đánh giá của khách hàng"
+    },
+    "paymentCenter": {
+      "methodNotFound": "Bạn chưa có phương thức thanh toán nào",
+      "addPaymentMethod": "Thêm phương thức thanh toán"
+    }
+  },
+  "pageNotFound": "Trang không tìm thấy",
+  "verifyAcctiveAccount": {
+    "verified": "Đã xác nhận",
+    "thankYou": "Cảm ơn, tài khoản của bạn đã xác nhận thành công",
+    "login": "Đăng nhập ngay",
+    "otp_record_not_found": "Xác nhận đã hết hạn!",
+    "authservice_otp_expired": "Xác nhận đã hết hạn!!"
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "layout": {
+    "header": {
+      "search": "Search",
+      "links": {
+        "explore": "Explore",
+        "login": "Log in",
+        "logout": "Log out",
+        "signup": "Register",
+        "joinAsHomeowner": "Sign up as Homeowner",
+        "joinAsPro": "Join Pro Network",
+        "shoppingCarts": "Carts",
+        "helpCenter": "Help center",
+        "home": "Home",
+        "services": "Services",
+        "about": "About",
+        "contact": "Contact"
+      },
+      "items": {
+        "referralCode": {
+          "name": "Referral code",
+          "description": "Copy your referral code"
+        },
+        "notification": {
+          "name": "Notification",
+          "description": "Check your notification here."
+        },
+        "accountManagement": {
+          "name": "Account management",
+          "description": "Edit your information."
+        },
+        "security": {
+          "name": "Security",
+          "description": "Understand how we take your privacy seriously."
+        },
+        "changePassword": {
+          "name": "Change Password",
+          "description": "Change your current password"
+        },
+        "accountInfomation": {
+          "name": "View account infomation",
+          "description": "View your account infomation in detail"
+        },
+        "myProjects": {
+          "name": "My projects",
+          "description": "View all your projects"
+        }
+      }
+    },
+    "footer": {}
+  },
+  "pages": {
+    "home": {
+      "section": {
+        "hero": {
+          "sologan": "Make your\ndream home 🏠 a reality.",
+          "search": {
+            "placeholder": "What's on your to-do list ?",
+            "submit": "Search"
+          }
+        },
+        "professionalNearYou": {
+          "title": "Professions Near You",
+          "viewAll": "view all",
+          "learnMore": "Learn more"
+        }
+      }
+    },
+    "accountInfo": {
+      "title": "Account Information",
+      "tabTitle": {
+        "personalProfile": "Personal profile",
+        "contactInfomation": "Contact Information"
+      },
+      "returnHome": "Back to Home",
+      "formItems": {
+        "firstname": {
+          "placeholder": "First name"
+        },
+        "lastname": {
+          "placeholder": "Last name"
+        },
+        "email": {
+          "placeholder": "Email"
+        },
+        "phone": {
+          "placeholder": "Phone number"
+        },
+        "address1": {
+          "placeholder": "Address 1"
+        },
+        "address2": {
+          "placeholder": "Address 2"
+        },
+        "state": {
+          "placeholder": "State"
+        },
+        "city": {
+          "placeholder": "City"
+        },
+        "zipcode": {
+          "placeholder": "Zip code"
+        }
+      }
+    },
+    "editProfile": {
+      "title": "Account information",
+      "tabTitle": {
+        "personalProfile": "Personal Profile",
+        "contactInfomation": "Contact Information"
+      },
+      "updateProfile": "Edit information",
+      "formItems": {
+        "firstname": {
+          "placeholder": "First name"
+        },
+        "lastname": {
+          "placeholder": "Last name"
+        },
+        "email": {
+          "placeholder": "Email"
+        },
+        "phone": {
+          "placeholder": "Phone number"
+        },
+        "address1": {
+          "placeholder": "Address 1"
+        },
+        "address2": {
+          "placeholder": "Address 2"
+        },
+        "state": {
+          "placeholder": "State"
+        },
+        "city": {
+          "placeholder": "City"
+        },
+        "zipcode": {
+          "placeholder": "Zip code"
+        }
+      }
+    },
+    "changePassword": {
+      "title": "Change Your Password",
+      "save": "Save",
+      "formItems": {
+        "currentPassword": {
+          "label": "Current password",
+          "message": {
+            "required": "Please fill in your current password",
+            "incorrect": "Password is incorrect"
+          }
+        },
+        "newPassword": {
+          "label": "New password",
+          "message": {
+            "required": "Please fill in your new password",
+            "invalid": "Password must have at least 8 characters with 1 uppercase, 1 lowercase letter and 1 number"
+          }
+        },
+        "confirmPassword": {
+          "label": "Confirm new password",
+          "message": {
+            "required": "Please fill in your new password to confirm",
+            "notMatch": "password do not match"
+          }
+        }
+      },
+      "alert": {}
+    },
+    "forgotPassword": {
+      "title": "Forgot password?",
+      "warning": "We will sent you a URL to reset your password",
+      "warning1": "Please enter your email address you have registered.",
+      "backToLogin": "Back to Login",
+      "next": "Next",
+      "formItems": {
+        "email": {
+          "label": "Email address",
+          "message": {
+            "required": "Please fill in your address"
+          }
+        }
+      }
+    },
+    "product": {
+      "arielMatic": {
+        "name": "Combo Nước Giặt ARIEL Matic Đậm Đặc 4.1KGx2/ Hương Downy 3.9KGx2",
+        "review": "review",
+        "sold": "sold",
+        "amount": "ammount",
+        "to": "To",
+        "changeAddress": "Change address",
+        "buy": "Buy",
+        "shopContact": "Chat with shop"
+      }
+    },
+    "signin": {
+      "welcome": "Welcome back!",
+      "review": "AnygoNow makes it easy to do \nmore for your home",
+      "forgotPassword": "Forgot password?",
+      "rememberMe": "Remember me",
+      "login": "Login",
+      "authservice_user_inactive": "Your account has been restricted from using our system !",
+      "createNewAccount": "Create new account",
+      "error": { "incorrect": "Incorrect email or password" },
+      "formItems": {
+        "email": {
+          "label": "Email address",
+          "message": {
+            "required": "please fill in your email"
+          }
+        },
+        "password": {
+          "label": "Your Password",
+          "label2": "Password",
+
+          "message": {
+            "required": "please fill in your password"
+          }
+        }
+      }
+    },
+    "signup": {
+      "welcome": "Let's get started",
+      "homeownerSignup": "Homeowner - Sign up",
+      "contractorSignup": "Contractor - Sign up",
+
+      "review": "AnygoNow makes it easy to do \n more for your home",
+      "iAgreeToThe": "I agree to the",
+      "and": "and",
+      "termOfUse": "Term of use",
+      "privacyPolicy": "Privacy policy",
+      "alreadyHaveAccount": "Already have an account",
+      "termOfUseNotAccepted": "You must accept to term of use to continue",
+      "next": "Next",
+      "user_email_existed": "Email has already existed!",
+      "user_phone_existed": "Phone number has already existed!",
+      "common_error": "Request failed !",
+      "formItems": {
+        "email": {
+          "label": "Email",
+          "message": {
+            "required": "Please fill in your email",
+            "invalid": "email is not valid"
+          }
+        },
+        "phoneNumber": {
+          "label": "Phone number",
+          "message": {
+            "required": "Please fill in your phone number",
+            "invalid": "Phone number is not valid"
+          }
+        },
+        "password": {
+          "label": "Password",
+          "message": {
+            "required": "Please fill in your password",
+            "invalid": "Password must have at least 8 characters with 1 uppercase, 1 lowercase letter and 1 number"
+          }
+        },
+        "confirmPassword": {
+          "label": "Confirm password",
+          "message": {
+            "required": "Please fill in your password to confirm",
+            "notMatch": "Password do not match"
+          }
+        }
+      }
+    },
+    "emailVerify": {
+      "title": "Verify your Email Address",
+      "subtitle1": "Confirmation link has been sent to email address",
+      "subtitle2": "Please check your mail box",
+      "hint": "No email? Check your spam folder berfore you",
+      "resend": "Resend the link"
+    },
+    "detail-brand": {
+      "already_ordered": "The order has been sent",
+      "sendSuccess": "Send request success",
+      "exceed_max_orders": "Exceed max orders"
+    },
+    "handyman": {
+      "connectSuccess": "The order has been connected",
+      "connectFailure": "Connection failed",
+      "connectIgnoreSuccess": "Successfully refused order",
+      "connectIgnoreFailure": "Rejection of failed orders"
+    },
+    "customerSearch": {
+      "title": "Search result for \"{0}\"",
+      "search": "Search",
+      "view": "View",
+      "reviews": "{0} reviews",
+      "clearFilter": "Clear Filter",
+      "mostReview": "Most review",
+      "mostRequest": "Most request",
+      "requestTimes": "Requested {0} times through Anygonow",
+      "reviewTimes": "{0} Customer Review"
+    },
+    "paymentCenter": {
+      "methodNotFound": "You dont't have any payment method",
+      "addPaymentMethod": "Add payment method"
+    }
+  },
+  "pageNotFound": "Page not found",
+  "verifyAcctiveAccount": {
+    "verified": "Verified",
+    "thankYou": "Thank you, your account is now verified in our system",
+    "login": "Login now",
+    "otp_record_not_found": "The verification link has expired!",
+    "authservice_otp_expired": "The verification link has expired!"
+  }
+}
